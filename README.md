@@ -7,6 +7,12 @@ A pitagoras-api foi criada com o intuito de encontrar hipotenusas para seus usu√
 
 The pitagoras-api was created in order to find hypotherus for its users. Triangles are armazeznados in the database, for possible improvements of the application as a response without request. Your endpoints rescan json and can be consumed by any api or front end.
 
+# Endpoints
+![image](https://user-images.githubusercontent.com/83050247/142500633-89586727-8b75-4413-bbea-96c505afe508.png)
+![image](https://user-images.githubusercontent.com/83050247/142500673-37794fe5-ac65-4c57-b83e-2d1213ee4822.png)
+![image](https://user-images.githubusercontent.com/83050247/142500707-8f9a1e7b-0ac0-4b62-bbf0-af07b7fd3622.png)
+
+
 # Tecnologias utilizadas
 - Nodejs
 - orm
