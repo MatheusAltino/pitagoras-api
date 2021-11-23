@@ -1,7 +1,6 @@
 import * as express from 'express';
 import * as bodyParser from 'body-parser';
 import * as cors from 'cors';
-import * as logger from 'morgan';
 
 import { connectServerInDb } from './config/db';
 import { routerTriangle } from './router/Triangle';
@@ -15,9 +14,6 @@ app.use(cors());
 
 // Json config
 app.use(bodyParser.json());
-
-// Logs config
-app.use(logger('dev'));
 
 //Conecta no DB
 connectServerInDb();

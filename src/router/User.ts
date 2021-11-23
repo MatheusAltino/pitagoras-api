@@ -8,7 +8,6 @@ const userCtrl = new UserController()
 
 //Salvar novos usuários
 routerUser.post('/register', async (req, res) => {
-    res.render('../../public/register.html')
     const {name, email} = req.body;
     const user = new User(name, email);
     const userSaved = await userCtrl.save(user);
@@ -17,7 +16,6 @@ routerUser.post('/register', async (req, res) => {
 
 //Listar usuários
 routerUser.get('/user/all', async (req, res) => {
-    //incluir verificação de usuário
     const users = await userCtrl.getAll();
     res.json(users);
 });

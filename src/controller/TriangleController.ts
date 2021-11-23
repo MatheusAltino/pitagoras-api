@@ -8,8 +8,9 @@ export class TriangleController {
         const triangleSaved = await getManager().save(triangle);
         return triangleSaved;
     }
-    
-    //Listar todos
-    
+    /*async getHip(triangle: Triangle) {
+        const hipotenusa = triangle.hipotenusa = Math.sqrt(Math.pow(triangle.cateto1, 2) + Math.pow(triangle.cateto2, 2))
+        return hipotenusa
+    }*/   
 }
 
